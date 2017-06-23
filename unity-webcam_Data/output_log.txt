@@ -22,7 +22,7 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.202347 ms
+UnloadTime: 0.781369 ms
 Start
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -36,10 +36,34 @@ Update
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: b2c -> priority: 1 
-  Thread -> id: 2a58 -> priority: 1 
-  Thread -> id: 26b4 -> priority: 1 
-  Thread -> id: 2668 -> priority: 1 
+  Thread -> id: 14dc -> priority: 1 
+  Thread -> id: 283c -> priority: 1 
+  Thread -> id: 1388 -> priority: 1 
+  Thread -> id: 2248 -> priority: 1 
+Update
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not connect pins - RenderStream()
+ 
+(Filename:  Line: 1906)
+
+Update
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Update
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Update
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Update
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Update
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)

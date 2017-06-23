@@ -18,7 +18,6 @@ public class OpenCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("Update");
 
 		if(webTex != null) {
 			image.texture = webTex;
@@ -31,7 +30,10 @@ public class OpenCamera : MonoBehaviour {
 		yield return Application.RequestUserAuthorization (UserAuthorization.WebCam);
 		if (Application.HasUserAuthorization(UserAuthorization.WebCam)) {
 			WebCamDevice[] devices = WebCamTexture.devices;
-			deviceName = devices [0].name;
+			for (int i = 0; i < devices.Length; i++) {
+				deviceName = devices[i].name;
+				Debug.Log ("CallCamera deviceName " + i + ": " + deviceName);
+			}
 			webTex = new WebCamTexture (deviceName, Screen.width, Screen.height, 20);
 			webTex.Play ();
 		}
