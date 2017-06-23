@@ -34,7 +34,8 @@ public class OpenCamera : MonoBehaviour {
 				deviceName = devices[i].name;
 				Debug.Log ("CallCamera deviceName " + i + ": " + deviceName);
 			}
-			webTex = new WebCamTexture (deviceName, Screen.width, Screen.height, 20);
+//			webTex = new WebCamTexture (deviceName, Screen.width, Screen.height, 20);
+			webTex = new WebCamTexture (devices[1].name, Screen.width, Screen.height, 20);
 			webTex.Play ();
 		}
 	}
